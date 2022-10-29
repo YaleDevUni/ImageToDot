@@ -1,0 +1,52 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run --machine --target lib\main.dart -d emulator-5554 --dart-define=flutter.inspector.structuredErrors=true --start-paused --web-server-debug-protocol ws --web-allow-expose-url --devtools-server-address http://127.0.0.1:9100/
+
+## exception
+
+RPCError: getVM: (112) Service has disappeared
+
+```
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel beta, 2.1.0-12.2.pre, on Microsoft Windows [Version 10.0.19042.928], locale ko-KR)
+    • Flutter version 2.1.0-12.2.pre at C:\flutter
+    • Framework revision 5bedb7b1d5 (5 weeks ago), 2021-03-17 17:06:30 -0700
+    • Engine revision 711ab3fda0
+    • Dart version 2.13.0 (build 2.13.0-116.0.dev)
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 30.0.3)
+    • Android SDK at C:\Users\rhrna\AppData\Local\Android\Sdk
+    • Platform android-30, build-tools 30.0.3
+    • Java binary at: C:\Program Files\Android\Android Studio\jre\bin\java
+    • Java version OpenJDK Runtime Environment (build 1.8.0_242-release-1644-b01)
+    • All Android licenses accepted.
+
+[✓] Chrome - develop for the web
+    • Chrome at C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+
+[✓] Android Studio (version 4.1.0)
+    • Android Studio at C:\Program Files\Android\Android Studio
+    • Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    • Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    • Java version OpenJDK Runtime Environment (build 1.8.0_242-release-1644-b01)
+
+[✓] VS Code (version 1.55.1)
+    • VS Code at C:\Users\rhrna\AppData\Local\Programs\Microsoft VS Code
+    • Flutter extension version 3.21.0
+
+[✓] Connected device (3 available)
+    • AOSP on IA Emulator (mobile) • emulator-5554 • android-x86    • Android 9 (API 28) (emulator)
+    • Chrome (web)                 • chrome        • web-javascript • Google Chrome 89.0.4389.128
+    • Edge (web)                   • edge          • web-javascript • Microsoft Edge 89.0.774.57
+
+• No issues found!
+```
