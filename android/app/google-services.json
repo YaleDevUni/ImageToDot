@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "259505256491",
+    "project_id": "textimagevt",
+    "storage_bucket": "textimagevt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259505256491:android:50de417616635f5ce2926e",
+        "android_client_info": {
+          "package_name": "com.yeilpark.imagetotext"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "259505256491-fknont5ues3qr3vi38o73ico7b5d2s3o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDek3CnGR2t6RjMx6ICD4VZQSDMoQ0Pxew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "259505256491-fknont5ues3qr3vi38o73ico7b5d2s3o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
